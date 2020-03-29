@@ -1,0 +1,97 @@
+
+
+@import	url("https://fonts.googleapis.com/css?family=Raleway");
+
+/** { box-sizing:border-box; }*/
+
+body { 
+	
+}
+
+.jumbotron { 
+/*	border: 1px;
+	border-color: solid lightgray;*/
+  	padding: 30px; 
+  	background-color: lightgray;
+}
+
+.container-fluid {
+  	max-width: 100%;
+  	padding: 0 15px; 
+}
+
+.jumbotron h1 { 
+  	text-align: left; 
+  	font-family: Raleway;
+  	font-weight: 600;
+  	font-size: 80px
+}
+
+.jumbotron p { 
+  	text-align: left; 
+  	font-size: 25px
+  	font-color: gray;
+}
+
+
+
+section {
+	margin: 50px;
+}
+
+.flex-container {
+	height: 400px;
+  	display: flex;
+  	flex-direction: row;
+	flex-wrap:wrap; 
+	justify-content: space-around; 
+	align-items: center
+}
+
+.div1 {
+	padding: 50px;
+	width: 30%;
+
+}
+
+.div2 {
+	padding: 50px;
+	width: 30%;
+
+}
+
+.div3 {
+	padding: 50px;
+	width: 30%;
+
+}
+
+.alert{
+	width: 100%;
+	align-items: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  /*For mobile: */
+ .col-sm-12 {
+    width: 100%;
+    font-size: 30px;
+  }
+
+@media only screen and (max-width: 900px) {
+/*   For tablet: */
+ .col-md-6 {
+    width: 50%;
+    font-size: 80px;
+  }
+
+@media only screen and (max-width: 1200px) {
+ /*  For desktop: */
+ .col-lg-4 {
+    width: 33.33%;
+    font-size: 120px;
+  }
+
+
